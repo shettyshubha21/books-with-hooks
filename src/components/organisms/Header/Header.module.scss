@@ -1,10 +1,12 @@
+@import '../../_settings/varibales';
+
 .Header header {
-    background-color: #282c34;
+    background-color: var(--background-color);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: var(--color-white);
     padding: 0.5rem 1rem;
   }
   
@@ -18,5 +20,5 @@
   }
   
   ul.menu a {
-    color: #ffffff;
+    color: var(--color-white);
   }
