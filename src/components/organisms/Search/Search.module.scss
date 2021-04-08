@@ -1,18 +1,15 @@
 .Search {
-    .input {
-        margin-top: 1%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .heading {
-        text-align: center;
-    }
-    .title { 
-        display: grid;
-        grid-template-columns: 2fr 1fr 100px;
-    }
-    .align {
-        text-align: center;
-    }
+  .input {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading {
+    text-align: center;
+  }
+  .title {
+    display: grid;
+    grid-template-columns: 2fr 1fr 100px;
+  }
 }
